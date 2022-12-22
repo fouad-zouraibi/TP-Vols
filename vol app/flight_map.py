@@ -4,9 +4,8 @@ Created on Thu Dec 22 14:03:59 2022
 
 @author: fouad
 """
-from Airport import Airport
-from Flight import Flight
-
+from airport import Airport
+from flight import Flight
 
 class FlightMap:
     def __init__(self, src_code, dst_code, duration):
