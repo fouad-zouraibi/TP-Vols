@@ -31,10 +31,10 @@ class Flightmap:
             return list(flights)
 
     def airports(self) -> list[Airport]:
-        return self.import_airports('/home/fouadzrb/Documents/tp/aeroports.csv')
+        return self.import_airports('/home/fouadzrb/TP-Vols/vol app/aeroports.csv')
 
     def flights(self) -> list[Flight]:
-        return self.import_flights('/home/fouadzrb/Documents/tp/flights.csv')
+        return self.import_flights('/home/fouadzrb/TP-Vols/vol app/flights.csv')
 
     def airport_find(self, airport_code: str) -> Airport:
         airport = list(filter(lambda x: x.code == airport_code, self.airports()))
