@@ -8,7 +8,7 @@ from Airport import Airport
 from Flight import Flight
 
 
-class Flightmap:
+class FlightMap:
     def __init__(self, src_code, dst_code, duration):
         self.src_code = src_code
         self.dst_code = dst_code
